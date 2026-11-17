@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "xmpvp",
+  "version": "${version}",
+  "name": "XM PvP",
+  "description": "Premium client-side PvP practice tools and world information.",
+  "authors": ["XMine"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.xmine.xmpvp.XMPvpClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
